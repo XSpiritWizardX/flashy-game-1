@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flashburst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="hud">
+      <div class="brand">
+        <div class="brand-title">FLASHBURST</div>
+        <div class="brand-subtitle">Collect sparks, blast shadows, keep the core alive.</div>
+      </div>
+      <div class="readouts">
+        <div class="readout">Score <span id="score">0</span></div>
+        <div class="readout">Charge <span id="charge">0</span></div>
+        <div class="readout">Core <span id="health">3</span></div>
+        <div class="readout">Time <span id="time">0.0</span>s</div>
+      </div>
+    </header>
+
+    <section class="stage">
+      <canvas id="game" aria-label="Flashburst game"></canvas>
+      <div class="overlay" id="overlay">
+        <div class="overlay-card">
+          <div class="overlay-title" id="overlayTitle">FLASHBURST</div>
+          <div class="overlay-body" id="overlayBody">
+            Move with WASD or arrow keys. Press Space to flash. Press Enter to start.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="tips">
+      <div>Tip: Chain sparks to keep charge up. Shadows grow faster over time.</div>
+      <div>Controls: WASD / Arrows, Space = Flash, Enter = Start, R = Restart</div>
+    </footer>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>

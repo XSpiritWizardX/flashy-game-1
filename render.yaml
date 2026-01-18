@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flashy-game-1
+    env: static
+    staticPublishPath: .
+    autoDeploy: true
+    routes:
+      - type: rewrite
+        source: "/*"
+        destination: "/index.html"
