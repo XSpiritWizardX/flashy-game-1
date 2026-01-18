@@ -1,3 +1,9 @@
 # flashy-game-1
 
-A neon arcade flash game built with HTML5 canvas.
+Project overview goes here.
+
+## Setup
+- Add setup steps here.
+
+## Development
+- Add dev commands here.
