@@ -1,0 +1,1 @@
+Implement `validateEmail(email)` (simple RFC-ish check), `createWaitlistStore(storage, key)` returning {list, has, add}, and `initWaitlistForm({form, messageEl, storage, storageKey})` that prevents submit, updates `messageEl` with success/error text, and returns a cleanup function. Export API via `module.exports` for tests and attach to `window.waitlist` for browser use.
