@@ -1,45 +1,40 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Flashburst</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="wrap">
-    <header class="hud">
-      <div class="brand">
-        <div class="brand-title">FLASHBURST</div>
-        <div class="brand-subtitle">Collect sparks, blast shadows, keep the core alive.</div>
-      </div>
-      <div class="readouts">
-        <div class="readout">Score <span id="score">0</span></div>
-        <div class="readout">Charge <span id="charge">0</span></div>
-        <div class="readout">Core <span id="health">3</span></div>
-        <div class="readout">Time <span id="time">0.0</span>s</div>
-      </div>
-    </header>
-
-    <section class="stage">
-      <canvas id="game" aria-label="Flashburst game"></canvas>
-      <div class="overlay" id="overlay">
-        <div class="overlay-card">
-          <div class="overlay-title" id="overlayTitle">FLASHBURST</div>
-          <div class="overlay-body" id="overlayBody">
-            Move with WASD or arrow keys. Press Space to flash. Press Enter to start.
-          </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>flashy-game-1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <strong>flashy-game-1</strong>
+        <a class="button" href="#pricing">Get Early Access</a>
+      </header>
+      <section class="card">
+        <h1>flashy-game-1 keeps your team focused.</h1>
+        <p>A focused SaaS that helps teams ship faster.</p>
+        <div class="button">Join the waitlist</div>
+      </section>
+      <section>
+        <h2>Features</h2>
+        <div class="card">
+          <p>Signal tracking, playbooks, and clear next steps in one place.</p>
         </div>
-      </div>
-    </section>
-
-    <footer class="tips">
-      <div>Tip: Chain sparks to keep charge up. Shadows grow faster over time.</div>
-      <div>Controls: WASD / Arrows, Space = Flash, Enter = Start, R = Restart</div>
-    </footer>
-  </div>
-
-  <script src="game.js"></script>
-</body>
+      </section>
+      <section id="pricing">
+        <h2>Pricing</h2>
+        <div class="card">
+          <p>Simple plans that scale with your revenue.</p>
+        </div>
+      </section>
+      <section>
+        <h2>FAQ</h2>
+        <div class="card">
+          <p>How fast can we launch? Typically in days.</p>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
