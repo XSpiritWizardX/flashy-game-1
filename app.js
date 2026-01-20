@@ -1,4 +1,1 @@
-document.addEventListener('DOMContentLoaded', function() {
-  const hero = document.querySelector('.hero');
-  hero.classList.add('reveal');
-});
+const reveal = document.querySelector('.reveal'); reveal.addEventListener('animationend', function() { reveal.classList.remove('reveal'); });
