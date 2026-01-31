@@ -1,1 +1,101 @@
-<link rel="stylesheet" href="styles.css" /><script src="app.js" defer></script>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flashy Game 1</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="noise"></div>
+    <header class="topbar">
+      <div class="brand">
+        <span class="logo">FG1</span>
+        <span class="name">flashy-game-1</span>
+      </div>
+      <nav class="nav">
+        <a href="#features">Features</a>
+        <a href="#modes">Modes</a>
+        <a href="#waitlist">Waitlist</a>
+      </nav>
+      <button class="cta" data-scroll="#waitlist">Join the Drop</button>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-left">
+          <p class="eyebrow">Neon Arena • 1v1 to 40v40</p>
+          <h1>Move fast. Break light. Rewrite the rules.</h1>
+          <p class="lead">flashy-game-1 is a turbo-charged, glow-drenched battler where momentum is your weapon. Chain boosts, blink through walls, and shatter the map’s core.</p>
+          <div class="hero-actions">
+            <button class="cta" data-scroll="#waitlist">Get Early Access</button>
+            <button class="ghost" data-scroll="#features">See the Tech</button>
+          </div>
+          <div class="stats">
+            <div><span>120 FPS</span><small>target on launch</small></div>
+            <div><span>4 Arenas</span><small>day-one maps</small></div>
+            <div><span>10 Min</span><small>average match</small></div>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="orb"></div>
+          <div class="card">
+            <p class="card-title">Live Prototype</p>
+            <div class="meter">
+              <span style="--fill: 78%"></span>
+            </div>
+            <p class="card-copy">Core loop locked. FX passes in progress. Join the waitlist to play before anyone else.</p>
+            <button class="cta small" data-scroll="#waitlist">Reserve Slot</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="stripe" id="features">
+        <div class="stripe-inner">
+          <h2>Designed to feel like a power surge</h2>
+          <div class="features">
+            <article>
+              <h3>Momentum Combat</h3>
+              <p>Boost chaining rewards clean movement. Your speed becomes your damage.</p>
+            </article>
+            <article>
+              <h3>Reactive Arenas</h3>
+              <p>Maps mutate under pressure—lights shatter, lanes reroute, cover collapses.</p>
+            </article>
+            <article>
+              <h3>Drop-in Squads</h3>
+              <p>Jump in instantly with friends. Win streaks unlock arena modifiers.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="modes" id="modes">
+        <h2>Modes built for flex playstyles</h2>
+        <div class="mode-grid">
+          <div class="mode">Pulse Duel</div>
+          <div class="mode">Shockwave Rush</div>
+          <div class="mode">Glitch Control</div>
+          <div class="mode">Overdrive Siege</div>
+        </div>
+      </section>
+
+      <section class="waitlist" id="waitlist">
+        <div class="waitlist-card">
+          <h2>Join the waitlist</h2>
+          <p>Get a timed access window, exclusive skins, and the first playable builds.</p>
+          <form id="waitlist-form">
+            <input type="email" id="email" placeholder="you@domain.com" required />
+            <button class="cta" type="submit">Claim Access</button>
+          </form>
+          <p class="fineprint" id="form-message">No spam. Only launch alerts.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 flashy-game-1. Built for fast hands.</p>
+    </footer>
+  </body>
+</html>
