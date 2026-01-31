@@ -1,0 +1,1 @@
+Implement `initModeBuilder(root)` that reads buttons/selects via data attributes, updates a preview object, and renders derived copy (e.g., team size, map hazards, suggested loadout). Include `loadSelection()`/`saveSelection()` helpers and dispatch a `mode:change` CustomEvent for future integrations.
