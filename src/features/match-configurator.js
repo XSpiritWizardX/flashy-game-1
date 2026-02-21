@@ -1,1 +1,1 @@
-Implement `initMatchConfigurator()` plus pure helpers (`computeDuration`, `computeReward`, `serializeConfig`) and render a control panel + results card. Wire CTA actions so selecting a preset can deep-link with query params for sharing (`?mode=10v10&map=core`).
+Implement a reducer-style state model, render controls from a config object, update a live summary panel on every change, and expose a custom event hook for future analytics. Handle invalid persisted state by resetting to safe defaults.
