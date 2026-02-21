@@ -1,0 +1,1 @@
+Build `initMatchConfigurator(container)` with JS state, input bindings, and derived calculations through a pure `computeMatchForecast(config)` helper. Save the latest config in localStorage and restore it on page load so the flow feels persistent and replayable.
